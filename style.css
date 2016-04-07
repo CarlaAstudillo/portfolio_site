@@ -1,0 +1,306 @@
+/*
+ * Base structure
+ */
+
+body {
+ 
+}
+
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+
+h1 {
+  padding-top: 30px;
+  color: #8ec8c4;
+  font-family: 'Rambla', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+
+}
+
+h2 {
+  color: #66B0AB;
+  font-family: 'Gudea', sans-serif;
+  font-size: 30px;
+  margin: 0;
+
+}
+
+#mobileheader {
+  background-color: #ce534c;
+  
+  padding: 30px 0;
+  height: 100%;
+
+}
+
+#mobileheader h1, #mobileheader h3 {
+  padding-top:0;
+  text-align: left;
+  padding: 0px 10px 0px 10px;
+  width: 100%;
+   margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+h3 {
+  color: #8ec8c4;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 27px;
+  margin: 0;
+}
+
+h4 {
+  font-size: 25px;
+  margin-top: 35px;
+  color: #46433a;
+}
+
+.logo {
+    width: 100%;
+    height: 40%;
+    margin: 0;
+    padding: 0;    
+}
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+  background-color: #ce534c;
+   text-align: center;
+
+}
+
+
+
+ul.nav.nav-sidebar {
+
+
+  margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+
+}
+
+.nav-sidebar, .nav-sidebar a {
+  
+  color: #f6f5f0;
+  font-family: 'Gudea', sans-serif;
+  font-size: 2.53vw;
+  padding: 0 20px 10px 20px;
+
+  
+}
+
+.nav-sidebar a {
+ 
+  margin-left:auto;
+  margin-right:auto;
+  border-bottom: 1px solid #f6f5f0;
+
+
+  }
+
+  .nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #46433a;
+  background: none;
+}
+
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+  color: #46433a;
+  background: none;
+  border-bottom: 1px solid #46433a;
+
+}
+
+.section {
+  padding: 30px 5px 40px 5px;
+  width: 100%;
+   margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+  border-top: 1px solid #46433A;
+  margin-top: 40px;
+}
+
+.section h2 {
+  padding-bottom: 20px;
+}
+
+h2.firstsection {
+  padding: 0;
+}
+
+.listlinks, .listlinks a {
+  font-weight: bold;
+  color:  #46433a !important;
+}
+
+a.listlinks {
+  text-decoration: underline !important;
+}
+
+
+.section a, .section h6 {
+ 
+    
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: bold;
+     color: #66B0AB;
+
+}
+
+.section h6 {
+ 
+    
+    font-size: 12px;
+
+}
+.section img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.section p {
+ 
+    
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #46433a;
+
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    background-color: #ce534c;
+    border-right: 1px solid #eee;
+     text-align: center;
+     height: 100%;
+  }
+  #mobileheader {
+  display:none;
+
+}
+.section {
+  padding: 30px 20px 40px 20px;
+  margin-bottom: 90px;
+  width: 70%;
+   margin-left: auto;
+    margin-right: auto;
+}
+  
+  h1 {
+  
+  font-size: 3.73vw;
+
+}
+
+h2 {
+  font-size: 3.43vw;
+
+}
+
+
+h3 {
+  font-size: 2.53vw;
+}
+
+}
+
+/* Sidebar navigation */
+.nav-sidebar, .nav-sidebar a {
+  text-align: center;
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+  font-family: 'Gudea', sans-serif;
+  font-size: 2.13vw;
+
+
+  color: #f6f5f0;
+}
+.nav-sidebar > li > a {
+  padding: 0 20px 10px 20px;
+  text-align: center;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #46433a;
+}
+
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+  background-color: #f6f5f0;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: #f6f5f0;
+  }
+
+  
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
